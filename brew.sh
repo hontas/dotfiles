@@ -31,8 +31,8 @@ brew upgrade --all
 #brew install bash
 #brew install bash-completion2
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
@@ -42,11 +42,11 @@ brew install wget --with-iri
 
 # Install more recent versions of some OS X tools.
 #brew install vim --override-system-vi
-#brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-#brew install homebrew/dupes/screen
+#brew install grep
+brew install openssh
+#brew install screen
 #brew install homebrew/php/php55 --with-gmp
-#brew install homebrew/dupes/tidy-html5
+#brew install tidy-html5
 
 # Install font tools.
 #brew tap bramstein/webfonttools
