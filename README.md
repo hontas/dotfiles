@@ -11,17 +11,15 @@ git clone https://github.com/hontas/dotfiles.git && cd dotfiles && source bootst
 ### 2. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 
 ### 3. Install Homebrew formulae
 
 Install `homebrew` and `brew-cask`
 ```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
-brew install brew-cask
-brew tap homebrew/versions
 brew tap caskroom/versions
 ```
 
