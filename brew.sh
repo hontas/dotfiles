@@ -82,7 +82,7 @@ brew install homebrew/dupes/openssh
 
 # Install other useful binaries.
 #brew install ack
-brew install dark-mode
+#brew install dark-mode
 #brew install exiv2
 brew install git
 #brew install git-lfs
@@ -94,7 +94,7 @@ brew install git
 #brew install pv
 #brew install rename
 #brew install rhino
-brew install speedtest_cli
+#brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
 brew install webkit2png
@@ -104,14 +104,14 @@ brew install webkit2png
 brew install mongodb
 
 # Install some gui applications
-brew cask install flux
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install screenhero
+#brew cask install flux
+#brew cask install google-chrome
+#brew cask install iterm2
+#brew cask install screenhero
 brew cask install slack
 brew cask install spectacle
 brew cask install sublime-text3
-#brew cask install atom
+brew cask install atom
 #brew cask install dropbox
 #brew cask install firefox
 #brew cask install spotify
