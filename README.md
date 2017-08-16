@@ -15,7 +15,6 @@ If you're using macOS Sierra 10.12.2 or later, you will need to modify your ~/.s
 # ~/,ssh/config
 Host *
  AddKeysToAgent yes
- UseKeychain yes
  IdentityFile ~/.ssh/id_rsa
 ```
 
