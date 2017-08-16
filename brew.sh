@@ -110,7 +110,6 @@ brew install mongodb
 #brew cask install screenhero
 brew cask install slack
 brew cask install spectacle
-brew cask install sublime-text3
 brew cask install atom
 #brew cask install dropbox
 #brew cask install firefox
