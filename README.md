@@ -33,7 +33,7 @@ git clone git@github.com:hontas/dotfiles.git && cd dotfiles && source bootstrap.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-Prepend 'source ~/.bashrc' to `~/.zshrc`
+Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
 
 ### 3. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
