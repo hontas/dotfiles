@@ -3,6 +3,26 @@
 
 ## Installation
 
+### 0.5 SSH
+
+Generate new keys
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+If you're using macOS Sierra 10.12.2 or later, you will need to modify your ~/.ssh/config file to automatically load keys into the ssh-agent and store passphrases in your keychain
+```bash
+# ~/,ssh/config
+Host *
+ AddKeysToAgent yes
+ IdentityFile ~/.ssh/id_rsa
+```
+
+Add to github
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
 ### 1. Clone and run bootstrap script
 ```bash
 git clone https://github.com/hontas/dotfiles.git && cd dotfiles && source bootstrap.sh
