@@ -25,7 +25,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 ### 1. Clone and run bootstrap script
 ```bash
-git clone https://github.com/hontas/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone git@github.com:hontas/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 ### 2. Install nvm
