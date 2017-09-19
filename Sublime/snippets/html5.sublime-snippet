@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${1:title}</title>
+    <link href="${2:styles/main.css}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	${0}
+	<script src="${3:scripts/main.js}"></script>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+(async function aiife() {
+  ${0:$SELECTION}
+}())
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>aiife</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>Async immediately invoked function expression</description>
+</snippet>
