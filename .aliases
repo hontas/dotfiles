@@ -19,7 +19,7 @@ alias c="clear"
 
 # Edit / Reload bash_profile
 alias ebash="subl ~/.bash_profile"
-alias sbash="source ~/.bash_profile"
+alias sbash="source ~/.zshrc"
 
 # Apache
 alias apache="sudo apachectl"

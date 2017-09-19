@@ -3,7 +3,7 @@
 
 ## Installation
 
-### 0.5 SSH
+### 0. SSH
 
 Generate new keys
 ```bash
@@ -28,13 +28,20 @@ pbcopy < ~/.ssh/id_rsa.pub
 git clone git@github.com:hontas/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
-### 2. Install nvm
+### 2. Oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
+
+### 3. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 
-### 3. Install Homebrew formulae
+### 4. Install Homebrew formulae
 
 Install `homebrew` and `brew-cask`
 ```bash
@@ -48,7 +55,7 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./brew.sh
 ```
 
-### 4. Add sensitive settings in `~/.extra`
+### 5. Add sensitive settings in `~/.extra`
 Example:
 ```bash
 # Git credentials
@@ -61,7 +68,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository.
 
-### 5. Sensible OS X defaults
+### 6. Sensible OS X defaults
 
 When setting up a new Mac, you may want to set some sensible OS X defaults:
 
