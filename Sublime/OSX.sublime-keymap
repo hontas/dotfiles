@@ -1,0 +1,5 @@
+[
+  { "keys": ["super+shift+w"], "command": "close_other_tabs"},
+  { "keys": ["super+alt+n"], "command": "new_file"},
+  { "keys": ["super+n"], "command": "advanced_new_file_new"}
+]
