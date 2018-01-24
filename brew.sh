@@ -54,6 +54,10 @@ brew install openssh
 #brew install sfnt2woff-zopfli
 #brew install woff2
 
+# Install syntax highlighting
+brew install highlight
+brew install source-highlight
+
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 #brew install aircrack-ng
 #brew install bfg
