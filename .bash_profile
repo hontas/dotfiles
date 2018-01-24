@@ -44,6 +44,18 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+### LESS ###
+# Enable syntax-highlighting in less.
+# brew install source-highlight/highlight
+# using source-highlight
+#export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
+#alias less='less -m -N -g -i -J --underline-special --SILENT'
+# using highlight
+export LESSOPEN="| $(which highlight) %s --out-format xterm256 --line-numbers --quiet --force --style solarized-light"
+export LESS=" -R "
+alias less='less -m -N -g -i -J --line-numbers --underline-special'
+alias more='less'
+
 # Case-insensitive globbing (used in pathname expansion)
 # shopt -s nocaseglob;
 
