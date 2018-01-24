@@ -35,6 +35,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
 
+#### 2.1 zsh-plugins
+
+1. https://github.com/rupa/z
+2. https://github.com/zsh-users/zsh-autosuggestions
+3. https://github.com/zsh-users/zsh-syntax-highlighting
+
 ### 3. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 ```bash
