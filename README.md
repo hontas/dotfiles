@@ -82,6 +82,14 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ./.osx
 ```
 
+### 7. nano syntax highligtning
+
+```bash
+git clone git@github.com:scopatz/nanorc.git ~/.nano
+```
+
+Update ~/.nanorc with what languages you want highligting for
+
 ## Update
 ```bash
 git pull
