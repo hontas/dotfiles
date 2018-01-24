@@ -1,5 +1,10 @@
+# set timezone
+export TZ="Europe/Stockholm";
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+# Add node_modules bin to path
+export PATH="./node_modules/.bin:$PATH";
 
 # Load NVM into shell session
 export NVM_DIR="$HOME/.nvm"
