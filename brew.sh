@@ -42,7 +42,8 @@ brew install wget
 
 # Install more recent versions of some OS X tools.
 #brew install vim --override-system-vi
-#brew install grep
+brew install grep
+brew install nano
 brew install openssh
 #brew install screen
 #brew install homebrew/php/php55 --with-gmp
