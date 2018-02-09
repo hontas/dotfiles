@@ -1,13 +1,4 @@
-include "~/.nano/conf.nanorc"
-include "~/.nano/css.nanorc"
-include "~/.nano/git.nanorc"
-include "~/.nano/gitcommit.nanorc"
-include "~/.nano/html.nanorc"
-include "~/.nano/js.nanorc"
-include "~/.nano/javascript.nanorc"
-include "~/.nano/json.nanorc"
-include "~/.nano/markdown.nanorc"
-include "~/.nano/nginx.nanorc"
-include "~/.nano/sh.nanorc"
-include "~/.nano/zsh.nanorc"
-include "~/.nano/zshrc.nanorc"
+set tabsize 4
+set tabstospaces
+
+include "~/.nano/*.nanorc"
