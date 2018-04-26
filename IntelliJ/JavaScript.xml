@@ -1,0 +1,70 @@
+<templateSet group="JavaScript">
+  <template name="c" value="console.log('$MSG$', $VALUE$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="MSG" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="desc" value="describe(&quot;$DESC$&quot;, () =&gt; {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it(&quot;should $DESC$&quot;, () =&gt; {&#10;    $END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $VAR$ from '$LIB$';" description="import" toReformat="false" toShortenFQNames="true">
+    <variable name="LIB" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="camelCase(LIB)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bef" value="before(() =&gt; {&#10;    $END$&#10;});" description="before" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="befe" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="beforeEach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="aft" value="after(() =&gt; {&#10;    $END$&#10;});" description="after" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afte" value="afterEach(() =&gt; {&#10;    $END$&#10;});" description="afterEach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="expect($CONDITION$).to.$TEST$($END$);" description="expect" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="stub" value="sinon.stub($OBJ$, '$METHOD$')$PROMISE$;&#10;$OBJ$.$METHOD$.restore();" description="sinon.stub" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROMISE" expression="" defaultValue="&quot;.resolves()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="const $VAR$ = require('$MODULE$');" description="require" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="lowercaseAndDash(VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
