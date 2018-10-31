@@ -56,8 +56,8 @@ brew install openssh
 #brew install woff2
 
 # Install syntax highlighting
-brew install highlight
-brew install source-highlight
+#brew install highlight
+#brew install source-highlight
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 #brew install aircrack-ng
@@ -102,20 +102,20 @@ brew install git
 #brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
-brew install webkit2png
+#brew install webkit2png
 #brew install zopfli
 
 # Hontas added install
-brew install mongodb
+#brew install mongodb
 
 # Install some gui applications
 #brew cask install flux
 #brew cask install google-chrome
 #brew cask install iterm2
 #brew cask install screenhero
-brew cask install slack
-brew cask install spectacle
-brew cask install atom
+#brew cask install slack
+#brew cask install spectacle
+#brew cask install atom
 #brew cask install dropbox
 #brew cask install firefox
 #brew cask install spotify
