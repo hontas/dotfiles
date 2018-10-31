@@ -23,6 +23,11 @@ Add to github
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
+Install `homebrew` and command line tools
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ### 1. Clone and run bootstrap script
 ```bash
 git clone git@github.com:hontas/dotfiles.git && cd dotfiles && source bootstrap.sh
@@ -44,14 +49,14 @@ Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
 ### 3. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+mkdir ~/.nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
 ### 4. Install Homebrew formulae
 
 Install `homebrew` and `brew-cask`
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
 brew tap caskroom/versions
 ```
