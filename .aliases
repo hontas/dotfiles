@@ -6,6 +6,12 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# docker
+alias d="docker"
+alias dm="docker-machine"
+alias di="d image"
+alias dc="d container"
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
