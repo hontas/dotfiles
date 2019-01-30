@@ -122,5 +122,9 @@ brew install tree
 #brew cask install virtualbox
 #brew cask install vlc
 
+# Install fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+
 # Remove outdated versions from the cellar.
 brew cleanup
