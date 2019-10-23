@@ -125,6 +125,8 @@ brew install tree
 # Install fonts
 brew tap caskroom/fonts
 brew cask install font-fira-code
+# timer app (for mob programming)
+brew cask install michaelvillar-timer
 
 # Remove outdated versions from the cellar.
 brew cleanup
