@@ -42,6 +42,8 @@ Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
 
 #### 2.1 zsh-plugins
 
+> git nvm thefuck
+
 1. https://github.com/rupa/z
 2. https://github.com/zsh-users/zsh-autosuggestions
 3. https://github.com/zsh-users/zsh-syntax-highlighting
