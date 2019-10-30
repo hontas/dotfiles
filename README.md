@@ -93,7 +93,7 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ### 7. nano syntax highligtning
 
 ```bash
-git clone git@github.com:scopatz/nanorc.git ~/.nano
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 ```
 
 Update ~/.nanorc with what languages you want highligting for
