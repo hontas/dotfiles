@@ -45,6 +45,7 @@ Prepend `source ~/.bashrc` to `~/.zshrc` and maybe add `nyan` to plugins :)
 1. https://github.com/rupa/z
 2. https://github.com/zsh-users/zsh-autosuggestions
 3. https://github.com/zsh-users/zsh-syntax-highlighting
+4. `brew install howdoi thefuck`
 
 ### 3. Install nvm
 See updated instructions at [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
