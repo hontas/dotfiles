@@ -60,7 +60,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 
 Install `homebrew` and `brew-cask`
 ```bash
-brew tap homebrew/cask-cask
 brew tap caskroom/versions
 ```
 
