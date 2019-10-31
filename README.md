@@ -92,11 +92,15 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 
 ### 7. nano syntax highligtning
 
+You must update nano version before `brew install nano`
+
 ```bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 ```
 
 Update ~/.nanorc with what languages you want highligting for
+
+Might have to add `export LC_ALL=sv_SE.UTF-8` or whatever locale you need from `l /usr/share/locale`
 
 ## Update
 ```bash
